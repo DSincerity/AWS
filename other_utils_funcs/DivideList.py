@@ -1,3 +1,4 @@
+
 class DivideList(object):
     """
     Split list into n groups.
@@ -49,7 +50,10 @@ class DivideList(object):
             return int(n)
         else:
             return int(n)+1
-if __nam__=='__main__':
+
+
+
+if __name__=='__main__':
 
     A= DivideList()
     group_n=6
