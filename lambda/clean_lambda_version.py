@@ -35,4 +35,4 @@ def clean_versions_of_lambda(function_name:str, version:str=None):
 
 
 if __name__ == '__main__':
-    clean_old_lambda_versions('ICT_FAMILY_FILTER_dev')
+    clean_versions_of_lambda("lambda_function_name")
